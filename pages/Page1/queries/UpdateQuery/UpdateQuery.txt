@@ -1,0 +1,11 @@
+UPDATE public."leads" SET
+		"nome" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',
+		"empresa" = '{{update_form.fieldState.empresa.isVisible ? update_form.formData.empresa : update_form.sourceData.empresa}}',
+    "email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"telefone" = '{{update_form.fieldState.telefone.isVisible ? update_form.formData.telefone : update_form.sourceData.telefone}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}',
+		"valor_estimado" = '{{update_form.fieldState.valor_estimado.isVisible ? update_form.formData.valor_estimado : update_form.sourceData.valor_estimado}}',
+		"origem" = '{{update_form.fieldState.origem.isVisible ? update_form.formData.origem : update_form.sourceData.origem}}',
+		"data_criacao" = '{{update_form.fieldState.data_criacao.isVisible ? update_form.formData.data_criacao : update_form.sourceData.data_criacao}}',
+		"data_atualizacao" = '{{update_form.fieldState.data_atualizacao.isVisible ? update_form.formData.data_atualizacao : update_form.sourceData.data_atualizacao}}'
+WHERE "id" = {{data_table.selectedRow.id}};

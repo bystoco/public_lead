@@ -1,0 +1,3 @@
+SELECT * FROM public."historico_interacoes"
+WHERE "lead_id" = {{Table_leads.selectedRow.id}}
+ORDER BY "data_interacao" DESC;

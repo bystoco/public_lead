@@ -1,0 +1,1 @@
+UPDATE public.historico_interacoes SET "lead_id"= '{{Table1.updatedRow.lead_id}}', "vendedor"= '{{Table1.updatedRow.vendedor}}', "descricao"= '{{Table1.updatedRow.descricao}}', "data_interacao"= '{{Table1.updatedRow.data_interacao}}' WHERE "id"= {{Table1.updatedRow.id}};

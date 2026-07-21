@@ -1,0 +1,59 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "defaultOptionValue": "GREEN",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "mrdul53id9",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Status\n",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 11,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 51,
+  "mobileTopRow": 4,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "parentColumnSpace": 11.51318359375,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 23,
+  "serverSideFiltering": false,
+  "sourceData": "[\n\t{\n    \"name\": \"Todos\",\n    \"code\": \"\"\n  },\n  {\n    \"name\": \"Novo\",\n    \"code\": \"Novo\"\n  },\n  {\n    \"name\": \"Em Contato\",\n    \"code\": \"Em Contato\"\n  },\n  {\n    \"name\": \"Contatado\",\n    \"code\": \"Contatado\"\n  },\n\t{\n    \"name\": \"Fechado\",\n    \"code\": \"Fechado\"\n  }\n]",
+  "topRow": 5,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "euxt5el7av",
+  "widgetName": "Select1"
+}

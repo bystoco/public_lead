@@ -1,0 +1,20 @@
+INSERT INTO public."leads" (
+	"nome",
+	"empresa",
+	"email",
+	"telefone",
+	"status",
+	"valor_estimado",
+	"origem",
+	"data_criacao",
+	"data_atualizacao")
+VALUES (
+	'{{insert_form.formData.nome}}',
+	'{{insert_form.formData.empresa}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.telefone}}',
+	'{{insert_form.formData.status}}',
+	'{{insert_form.formData.valor_estimado}}',
+	'{{insert_form.formData.origem}}',
+	'{{insert_form.formData.data_criacao}}',
+	'{{insert_form.formData.data_atualizacao}}');

@@ -1,0 +1,5 @@
+SELECT * FROM public."leads"
+WHERE    "nome" ilike '%{{Table_leads.searchText || ""}}%'
+ORDER BY "{{Table_leads.sortOrder.column || 'id'}}" {{Table_leads.sortOrder.order || 'ASC'}}
+LIMIT {{Table_leads.pageSize}}
+OFFSET {{(Table_leads.pageNo - 1) * Table_leads.pageSize}};

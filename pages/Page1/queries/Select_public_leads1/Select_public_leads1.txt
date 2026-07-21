@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.leads
+WHERE
+  "nome" ilike '%{{Table_leads.searchText}}%'
+ORDER BY
+  "{{Table_leads.sortOrder.column || 'id'}}" {{Table_leads.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table_leads.pageSize}}
+OFFSET
+  {{Table_leads.pageOffset}}

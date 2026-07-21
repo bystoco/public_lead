@@ -1,0 +1,1 @@
+INSERT INTO public.historico_interacoes ("lead_id","vendedor","descricao","data_interacao") VALUES ('{{(Table1.newRow || {}).lead_id}}','{{(Table1.newRow || {}).vendedor}}','{{(Table1.newRow || {}).descricao}}','{{(Table1.newRow || {}).data_interacao}}')

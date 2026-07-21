@@ -1,0 +1,645 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 68,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "cachedTableData": {},
+  "canFreezeColumn": true,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "nome",
+    "empresa",
+    "email",
+    "telefone",
+    "status",
+    "valor_estimado",
+    "origem",
+    "data_criacao",
+    "data_atualizacao",
+    "EditActions1"
+  ],
+  "columnUpdatedAt": 1784590122570,
+  "columnWidthMap": {
+    "id": 60
+  },
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSearchText": "{{Query1.data}}",
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": [
+    0
+  ],
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "totalRecordsCount"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.nome.computedValue"
+    },
+    {
+      "key": "primaryColumns.empresa.computedValue"
+    },
+    {
+      "key": "primaryColumns.email.computedValue"
+    },
+    {
+      "key": "primaryColumns.telefone.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    },
+    {
+      "key": "primaryColumns.valor_estimado.computedValue"
+    },
+    {
+      "key": "primaryColumns.origem.computedValue"
+    },
+    {
+      "key": "primaryColumns.data_criacao.computedValue"
+    },
+    {
+      "key": "primaryColumns.data_atualizacao.computedValue"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveButtonColor"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "defaultSearchText"
+    },
+    {
+      "key": "primaryColumns.id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.nome.cellBackground"
+    },
+    {
+      "key": "primaryColumns.empresa.cellBackground"
+    },
+    {
+      "key": "primaryColumns.email.cellBackground"
+    },
+    {
+      "key": "primaryColumns.telefone.cellBackground"
+    },
+    {
+      "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "primaryColumns.valor_estimado.cellBackground"
+    },
+    {
+      "key": "primaryColumns.origem.cellBackground"
+    },
+    {
+      "key": "primaryColumns.data_criacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.data_atualizacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.EditActions1.cellBackground"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "isVisibleSearch"
+    },
+    {
+      "key": "primaryColumns.id.cellBackground"
+    },
+    {
+      "key": "primaryColumns.nome.cellBackground"
+    },
+    {
+      "key": "primaryColumns.empresa.cellBackground"
+    },
+    {
+      "key": "primaryColumns.email.cellBackground"
+    },
+    {
+      "key": "primaryColumns.telefone.cellBackground"
+    },
+    {
+      "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "primaryColumns.valor_estimado.cellBackground"
+    },
+    {
+      "key": "primaryColumns.origem.cellBackground"
+    },
+    {
+      "key": "primaryColumns.data_criacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.data_atualizacao.cellBackground"
+    },
+    {
+      "key": "primaryColumns.EditActions1.cellBackground"
+    },
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    },
+    {
+      "key": "onSearchTextChanged"
+    },
+    {
+      "key": "onSort"
+    },
+    {
+      "key": "onAddNewRowSave"
+    },
+    {
+      "key": "primaryColumns.EditActions1.onSave"
+    },
+    {
+      "key": "onRowSelected"
+    }
+  ],
+  "enableClientSideSearch": false,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": "true",
+  "key": "7j0ewhg49e",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 38,
+  "mobileLeftColumn": 3,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 10,
+  "needsErrorInfo": false,
+  "onAddNewRowSave": "{{Insert_public_leads1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_public_leads1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+  "onPageChange": "{{\n            Select_public_leads1.run();\n            Total_record_public_leads1.run()\n          }}",
+  "onRowSelected": "{{ Query_get_historico_interacoes.run().then(() => {\n    showModal('Detail_Modal');\n  })\n}}",
+  "onSearchTextChanged": "{{Query_Nome_Empresa.run();\nQuery_Nome_Empresa.run();}}",
+  "onSort": "{{\n            Select_public_leads1.run();\n            Total_record_public_leads1.run()\n          }}",
+  "parentColumnSpace": 11.51318359375,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "EditActions1": {
+      "alias": "EditActions1",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "editActions",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "discardActionLabel": "Cancelar",
+      "discardBorderRadius": "{{Table_leads.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "discardButtonColor": "#F22B2B",
+      "discardButtonVariant": "TERTIARY",
+      "discardIconAlign": "left",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "EditActions1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardDisabled": "{{Table_leads.processedTableData.map((currentRow, currentIndex) => ( !Table_leads.updatedRowIndices.includes(currentIndex)))}}",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveDisabled": "{{Table_leads.processedTableData.map((currentRow, currentIndex) => ( !Table_leads.updatedRowIndices.includes(currentIndex)))}}",
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Save / Discard",
+      "notation": "standard",
+      "onSave": "{{Update_public_leads1.run(() => {\n            showAlert(\"Successfully saved!\");\n            Select_public_leads1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
+      "originalId": "EditActions1",
+      "saveActionLabel": "Savar",
+      "saveBorderRadius": "{{Table_leads.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "saveButtonColor": "{{Table_leads.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "saveIconAlign": "left",
+      "sticky": "right",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "data_atualizacao": {
+      "alias": "data_atualizacao",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "date",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"data_atualizacao\"])) : data_atualizacao })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "data_atualizacao",
+      "index": 9,
+      "inputFormat": "YYYY-MM-DD HH:mm",
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "Data Atualização",
+      "notation": "standard",
+      "originalId": "data_atualizacao",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "data_criacao": {
+      "alias": "data_criacao",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "date",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"data_criacao\"])) : data_criacao })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "data_criacao",
+      "index": 8,
+      "inputFormat": "YYYY-MM-DD HH:mm",
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Data Criação",
+      "notation": "standard",
+      "originalId": "data_criacao",
+      "outputFormat": "DD/MM/YYYY HH:mm",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "email": {
+      "alias": "email",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"email\"])) : email })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "email",
+      "index": 3,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "E-mail",
+      "notation": "standard",
+      "originalId": "email",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "empresa": {
+      "alias": "empresa",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"empresa\"])) : empresa })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "empresa",
+      "index": 2,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Empresa",
+      "notation": "standard",
+      "originalId": "empresa",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"id\"])) : id })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "nome": {
+      "alias": "nome",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"nome\"])) : nome })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "nome",
+      "index": 1,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Nome",
+      "notation": "standard",
+      "originalId": "nome",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "origem": {
+      "alias": "origem",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"origem\"])) : origem })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "origem",
+      "index": 7,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "Origem",
+      "notation": "standard",
+      "originalId": "origem",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "status": {
+      "alias": "status",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"status\"])) : status })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "status",
+      "index": 5,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Status",
+      "notation": "standard",
+      "originalId": "status",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "telefone": {
+      "alias": "telefone",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"telefone\"])) : telefone })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "telefone",
+      "index": 4,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Telefone",
+      "notation": "standard",
+      "originalId": "telefone",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "valor_estimado": {
+      "alias": "valor_estimado",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (LeadRules.getRowColor(currentRow))) : LeadRules.getRowColor(currentRow) })()}}",
+      "columnType": "currency",
+      "computedValue": "{{(() => { const tableData = Table_leads.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"valor_estimado\"])) : valor_estimado })()}}",
+      "currencyCode": "BRL",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "RIGHT",
+      "id": "valor_estimado",
+      "index": 6,
+      "isCellEditable": true,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Valor Estimado",
+      "notation": "standard",
+      "originalId": "valor_estimado",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "searchKey": "",
+  "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{Select_public_leads1.data}}",
+  "textSize": "0.875rem",
+  "topRow": 9,
+  "totalRecordsCount": "{{Total_record_public_leads1.data[0].count}}",
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "pw0smpn5ee",
+  "widgetName": "Table_leads"
+}
