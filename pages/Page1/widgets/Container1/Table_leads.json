@@ -52,7 +52,7 @@
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
-  "defaultSearchText": "{{Query1.data}}",
+  "defaultSearchText": "",
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
     0
@@ -118,9 +118,6 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
-    },
-    {
-      "key": "defaultSearchText"
     },
     {
       "key": "primaryColumns.id.cellBackground"
@@ -250,7 +247,7 @@
   "onAddNewRowSave": "{{Insert_public_leads1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_public_leads1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
   "onPageChange": "{{\n            Select_public_leads1.run();\n            Total_record_public_leads1.run()\n          }}",
   "onRowSelected": "{{ Query_get_historico_interacoes.run().then(() => {\n    showModal('Detail_Modal');\n  })\n}}",
-  "onSearchTextChanged": "{{Query_Nome_Empresa.run();\nQuery_Nome_Empresa.run();}}",
+  "onSearchTextChanged": "{{Query_Nome_Empresa.run();\nSelect_public_leads1.run()}}",
   "onSort": "{{\n            Select_public_leads1.run();\n            Total_record_public_leads1.run()\n          }}",
   "parentColumnSpace": 11.51318359375,
   "parentId": "59rw5mx0bq",
