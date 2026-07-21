@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM public.\"leads\"\nWHERE (\n    \"nome\" ilike '%{{Table_leads.searchText || \"\"}}%'\n    OR \"empresa\" ilike '%{{Table_leads.searchText || \"\"}}%'\n)\nORDER BY \"{{Table_leads.sortOrder.column || 'id'}}\" {{Table_leads.sortOrder.order || 'ASC'}}\nLIMIT {{Table_leads.pageSize}}\nOFFSET {{(Table_leads.pageNo - 1) * Table_leads.pageSize}};",
+      "body": "SELECT * FROM public.\"leads\"\nWHERE (\n    \"nome\" ilike '%{{Table_leads.searchText || \"\"}}%'\n    OR \"empresa\" ilike '%{{Table_leads.searchText || \"\"}}%'\n)\nAND \"status\" ilike '%{{Select_Status.selectedOptionValue || \"\"}}%'\nORDER BY \"{{Table_leads.sortOrder.column || 'id'}}\" {{Table_leads.sortOrder.order || 'ASC'}}\nLIMIT {{Table_leads.pageSize}}\nOFFSET {{(Table_leads.pageNo - 1) * Table_leads.pageSize}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -29,7 +29,7 @@
     ],
     "name": "Query_Nome_Empresa",
     "pageId": "Page1",
-    "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "runBehaviour": "ON_PAGE_LOAD",
+    "userSetOnLoad": true
   }
 }

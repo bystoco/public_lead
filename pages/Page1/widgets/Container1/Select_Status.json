@@ -19,7 +19,11 @@
       "key": "sourceData"
     }
   ],
-  "dynamicTriggerPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
   "isDisabled": false,
   "isFilterable": true,
   "isLoading": false,
@@ -40,6 +44,7 @@
   "mobileRightColumn": 51,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
+  "onOptionChange": "{{Query_Nome_Empresa.run()}}",
   "optionLabel": "name",
   "optionValue": "code",
   "parentColumnSpace": 11.51318359375,
@@ -55,5 +60,5 @@
   "type": "SELECT_WIDGET",
   "version": 1,
   "widgetId": "euxt5el7av",
-  "widgetName": "Select1"
+  "widgetName": "Select_Status"
 }
